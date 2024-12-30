@@ -96,7 +96,7 @@
 
               <body name="left_shoulder_roll_link" pos="-0.0313 0 -0.0592" quat="0.707105 0 -0.707108 0" gravcomp="0">
                 <inertial pos="0.000154 0.0778464 -0.0271134" quat="0.765297 0.643563 -0.00747942 0.00959688" mass="0.691695" diaginertia="0.00133677 0.00119611 0.000636982"/>
-                <joint name="left_shoulder_roll" type='hinge' pos="0 0 0" axis="0 0 -1" damping='1' range="-1.57 1.57" />
+                <joint name="left_shoulder_roll" type='hinge' pos="0 0 0" axis="0 0 -1" damping='1' range="-1.57 0" />
                 <geom type='mesh' mesh='left_shoulder_roll' pos='0 0 0' euler='-0 0 -0'
                   rgba="1 1 0.4 1" />
 
@@ -145,19 +145,19 @@
 
               <body name="right_shoulder_roll_link" pos="0.0313 0 -0.0592" quat="-2.59734e-06 0.707105 2.59735e-06 0.707108" gravcomp="0">
                 <inertial pos="9.998e-05 -0.0778724 -0.0270563" quat="0.64355 0.765355 0.0062383 -0.00599871" mass="0.691426" diaginertia="0.00133761 0.00119704 0.000636294"/>
-                <joint name="right_shoulder_roll" type='hinge' pos="0 0 0" axis="0 0 -1" damping='1' range="-1.57 1.57" />
+                <joint name="right_shoulder_roll" type='hinge' pos="0 0 0" axis="0 0 -1" damping='1' range="0 1.57" />
                 <geom type='mesh' mesh='right_shoulder_roll' pos='0 0 0' euler='-0 0 -0'
                   rgba="1 1 0.4 1" />
 
                 <body name="right_shoulder_yaw_link" pos="0 -0.1252 -0.0313" quat="0.707105 0.707108 0 0" gravcomp="0">
                   <inertial pos="-0.00189082 -0.00017102 0.0317511" quat="0.694675 -0.204745 -0.19648 0.660985" mass="0.604503" diaginertia="0.000550567 0.000505158 0.000491905"/>
-                  <joint name="right_shoulder_yaw" type='hinge' pos="0 0 0" axis="0 1 0" damping='1' range="-3.14 3.14" />
+                  <joint name="right_shoulder_yaw" type='hinge' pos="0 0 0" axis="0 0 1" damping='1' range="-3.14 3.14" />
                   <geom type='mesh' mesh='right_shoulder_yaw' pos='0 0 0' euler='-0 0 -0'
                     rgba="0.4 1 0.4 1" />
 
                   <body name="right_elbow_pitch_link" pos="-0.031 0 0.0365" quat="0.5 -0.5 0.5 -0.5" gravcomp="0">
                     <inertial pos="-2.604e-05 -0.0752983 0.0268563" quat="0.802034 0.597278 0.000362597 -2.24278e-05" mass="0.697801" diaginertia="0.00116302 0.00100116 0.000614171"/>
-                    <joint name="right_elbow_pitch" type='hinge' pos="0 0 0" axis="0 0 1" damping='1' range="0 2.35" />
+                    <joint name="right_elbow_pitch" type='hinge' pos="0 0 0" axis="0 0 1" damping='1' range="-2.35 0" />
                     <geom type='mesh' mesh='right_elbow_pitch' pos='0 0 0' euler='-0 0 -0'
                       rgba="0 0.5 1 1" />
 
