@@ -127,8 +127,8 @@
                         <body name="left_wrist_roll_link" pos="0 0 0" quat="0.707106 7.94894e-07 0.707108 7.94894e-07" gravcomp="0">
                           <inertial pos="-0.0206623 -0.0314139 -0.00356965" quat="0.373433 0.844098 -0.329445 0.198775" mass="0.370899" diaginertia="0.000404077 0.000356841 0.000211598"/>
                           <joint name="left_wrist_roll" type='hinge' pos="0 0 0" axis="1 0 0" damping='1' range="-3.14 3.14" />
-                          <geom type='mesh' mesh='left_wrist_roll' pos='0 0 0' euler='-0 0 -0'
-                            rgba="1 0.4 0.4 1" />
+                          <geom type='mesh' mesh='left_wrist_roll' pos='0 0 0' euler='-0 0 -0' rgba="1 0.4 0.4 1" />
+                          <geom type='mesh' mesh='left_wrist_roll' pos='0 0 0' euler='-0 0 -0' class = "collision" />
                         </body>
                       </body>
                     </body>
@@ -176,8 +176,8 @@
                         <body name="right_wrist_roll_link" pos="0 0 0" quat="0.707106 7.94894e-07 0.707108 7.94894e-07" gravcomp="0">
                           <inertial pos="-0.0206623 -0.0314139 -0.00356965" quat="0.373433 0.844098 -0.329445 0.198775" mass="0.370899" diaginertia="0.000404077 0.000356841 0.000211598"/>
                           <joint name="right_wrist_roll" type='hinge' pos="0 0 0" axis="1 0 0" damping='1' range="-3.14 3.14" />
-                          <geom type='mesh' mesh='right_wrist_roll' pos='0 0 0' euler='-0 0 -0'
-                            rgba="1 0.4 0.4 1" />
+                          <geom type='mesh' mesh='right_wrist_roll' pos='0 0 0' euler='-0 0 -0' rgba="1 0.4 0.4 1" />
+                          <geom type='mesh' mesh='right_wrist_roll' pos='0 0 0' euler='-0 0 -0' class = "collision" />
                         </body>
                       </body>
                     </body>
