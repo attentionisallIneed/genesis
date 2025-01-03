@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<mujoco model="cube">
+    <statistic center="0 0 0.55" extent="1.1"/>
+    <visual>
+        <map znear="0.01" zfar="10"/>
+    </visual>
+    <default>
+        <geom rgba="0 0 1 1" condim="3"/>
+    </default>
+    <worldbody>
+
+        <!-- 添加物体 -->
+        <body name="cube" pos="0.3 0 1.2">
+            <freejoint name="cube_joint"/>
+            <geom name="cube_geom" type="box" size="0.1 0.1 0.1" density="1000" rgba="0.15 0.25 0.35 1" contype="1" conaffinity="1" />
+        </body>
+
+    </worldbody>
+</mujoco>

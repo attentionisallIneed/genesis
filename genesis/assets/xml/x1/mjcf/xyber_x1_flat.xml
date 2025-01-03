@@ -3,5 +3,6 @@
     <include file = "robot/xyber_x1/x1_bihands.xml" />
    <!-- <include file = "robot/xyber_x1/x1_full_dof.xml" /> -->
     <!-- <include file = "environment/flat.xml" /> -->
+    <!-- <include file = "environment/box.xml" /> -->
 
 </mujoco>
